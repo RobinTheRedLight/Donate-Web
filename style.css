@@ -1,0 +1,239 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Mingzat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sec1 {
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    height: 95vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.s1_h1_txt {
+    text-align: center;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#s1_h1_pos {
+    top: 30%;
+    left: 50%;
+    font-size: 60px;
+    font-weight: 700px;
+}
+
+#s1_h3_pos {
+    top: 50%;
+    left: 50%;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.button {
+    top: 65.1%;
+    left: 50%;
+    background-color: tomato;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.s2_h1 {
+    font-size: 40px;
+    margin: 20px;
+}
+
+.s2_d1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.s2_h3 {
+    color: gray;
+    font-weight: 500;
+}
+
+.s2_d2 {
+    display: flex;
+    margin-left: 310px;
+}
+
+.s2_d3 {
+    font-weight: 900;
+    margin: 50px 5px;
+    padding: 37px;
+    background-color: #F8F8F8;
+    border-radius: 10px;
+}
+
+.bdr {
+    border: 1px solid red;
+    color: red;
+}
+
+.inp {
+    text-align: center;
+    margin-left: 275px;
+    border: 0;
+    margin-bottom: 10px;
+
+}
+
+#bdr2 {
+    width: 712px;
+    border-bottom: 1px solid;
+    margin-left: 320px;
+    border-color: #A9A9A9;
+}
+
+.s3_d2 {
+    display: flex;
+    text-align: left;
+    margin: 40px 150px;
+}
+
+.s3_d3 {
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.pad {
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.clr1 {
+    background-color: rgb(236, 240, 241);
+}
+
+.clr2 {
+    background-color: rgb(243, 231, 233);
+}
+
+.clr3 {
+    background-color: rgb(245, 232, 208);
+}
+
+.btn2 {
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+input {
+    width: 180px;
+    height: 30px;
+    border: 1px solid black;
+    color: black;
+}
+
+textarea {
+    color: black;
+    border: 1px solid black;
+}
+
+label {
+
+    color: black;
+    font-weight: 700;
+}
+
+input[type=submit] {
+    width: 80px;
+    height: 36px;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type=reset] {
+    width: 80px;
+    height: 36px;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 3em;
+    color: black;
+}
+
+fieldset {
+    margin: 50px;
+    border: none;
+}
+
+.frm {
+    background-color: #EFE1CE;
+    margin: 80px;
+    padding: 20px;
+    border-radius: 5px;
+    height: 700px;
+}
+
+.mrgn5 {
+    background-color: #EFE1CE;
+    width: 30%;
+    margin-left: 450px;
+}
+
+.form {
+
+    padding: 30px;
+    margin: 15px;
+
+
+}
+
+.form__email {
+    padding: 17px 5px;
+    border-radius: 5px;
+    border: 1px solid #CAD3DB;
+    width: 200px;
+    font-size: 18px;
+    color: #0F121F;
+}
+
+.form__button {
+    background-image: linear-gradient(orange, rgb(236, 19, 19));
+    padding: 2px;
+    border: none;
+    width: 100px;
+    height: 65px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    margin-left: -4px;
+}
+
+.lst {
+    margin-bottom: 50px;
+}
+
+.ftr {
+    background-color: rgb(31, 29, 29);
+    height: 70px;
+    text-align: center;
+    color: white;
+}
+
+.fh2 {
+    color: tomato;
+
+}
